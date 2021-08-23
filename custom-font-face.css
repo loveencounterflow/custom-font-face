@@ -1,0 +1,124 @@
+
+/*'./fonts/Atkinson-Hyperlegible-Bold-102.otf'*/
+/*'./fonts/Atkinson-Hyperlegible-BoldItalic-102.otf'*/
+/*'./fonts/Atkinson-Hyperlegible-Italic-102.otf'*/
+/*'./fonts/Atkinson-Hyperlegible-Regular-102.otf'*/
+
+/*@font-face { font-family: 'flow';  src: local( '1455_gutenberg_b42.otf'   ); unicode-range: U+00000-10ffff; }*/
+/*@font-face { font-family: 'flow';  src: local( 'JuniusX-SemiCondensed.ttf'   ); unicode-range: U+00000-10ffff; }*/
+/* ### NOTE https://psb1558.github.io/Junicode-New/ "The italic is about 63% complete, and development is proceeding briskly." */
+/* font-variation-settings: "wght" 400, "wdth" 100; */
+/*@font-face { font-family: 'flow';  src: local( 'Junicode-ItalicCondensed.ttf'   ); unicode-range: U+00000-10ffff; }*/
+/*@font-face { font-family: 'flow';  src: local( 'JuniusX-SemiCondensedMedium.ttf'   ); unicode-range: U+00000-10ffff; }*/
+/*@font-face { font-family: 'flow';  src: local( 'JuniusX-Condensed.ttf'   ); unicode-range: U+00000-10ffff; }*/
+/*@font-face { font-family: 'flow';  src: local( 'EBGaramond12-Regular.otf'   ); unicode-range: U+00000-10ffff; }*/
+/*@font-face { font-family: 'flow';  src: local( 'sunflower-exta-201903.ttf'  ); unicode-range: U+03400-09fff; }*/
+/*@font-face { font-family: 'flow';  src: local( 'iosevka-slab-regular.ttf'   ); unicode-range: U+00000-04dff; }*/
+@font-face { font-family: 'flow';  src: local( 'jizura3b'               ); unicode-range: U+0e000-0efff; }
+@font-face { font-family: 'flow';  src: local( 'HanaMinA'               ); unicode-range: U+2a700-2b73f; }
+/*@font-face { font-family: 'flow';  src: local( 'mktwx.ttf'                  ); unicode-range: U+0f002-0f002; }*/
+/*@font-face { font-family: 'flow';  src: local( 'mktwx.ttf'                  ); unicode-range: U+0f003-0f003; }*/
+
+@font-face {
+  font-family:            'flow';
+  src:                    local( 'Sun-ExtA' );
+  unicode-range:
+    U+2e80-2eff,
+    U+3006-3007,
+    U+3021-3029,
+    U+3038-303a,
+    U+3400-4db5,
+    U+4e00-9fef,
+    U+f900-fa6d,
+    U+fa70-fad9,
+    U+17000-187f7,
+    U+18800-18af2,
+    U+1b170-1b2fb,
+    U+20000-2a6d6,
+    U+2a700-2b734,
+    U+2b740-2b81d,
+    U+2b820-2cea1,
+    U+2ceb0-2ebe0,
+    U+2f800-2fa1d; }
+
+@font-face {
+  font-family:            'flow';
+  src:                    local( 'Sun-ExtB'     );
+  unicode-range: U+20000-2ffff; }
+
+@font-face {
+  font-family:        'flow';
+   src:            local( 'Noto Serif CJK JP'   );
+   unicode-range:
+     U+03040-0309f, /* Hiragana */
+     U+1b000-1b0ff, /* Kana Supplement */
+     U+1b100-1b12f, /* Kana Extended-A */
+     U+030a0-030ff, /* Katakana */
+     U+031f0-031ff, /* Katakana Phonetic Extensions */
+     U+03200-032ff, /* Enclosed CJK Letters and Months */
+     U+0ff00-0ffef, /* Halfwidth and Fullwidth Forms */
+     U+1b000-1b0ff, /* Kana Supplement */
+     U+1b130-1b16f; /* Small Kana Extension */
+   }
+
+@font-face {
+  font-family:        'flow';
+  src:                local( 'Amiri Quran'   );
+  unicode-range:
+    U+00600-00604, /*  (5) */
+    U+00606-0061c, /* ؆؇؈؉؊؋،؍؎؏ؐ (23) */
+    U+0061e-006dc, /* ؞؟ؠءآأؤإئاب (191) */
+    U+006de-006ff, /* ۞۟ۤۥۦۧۨ (34) */
+    U+00750-0077f, /* ݐݑݒݓݔݕݖݗݘݙݚ (48) */
+    U+008a0-008b4, /* ࢠࢡࢢࢣࢤࢥࢦࢧࢨࢩࢪ (21) */
+    U+008b6-008c7, /* ࢶࢷࢸࢹࢺࢻࢼࢽࢾࢿࣀ (18) */
+    U+008d3-008e1, /* ࣓ࣝ (15) */
+    U+008e3-008ff, /* ࣣ࣭ (29) */
+    U+0fb50-0fbc1, /* ﭐﭑﭒﭓﭔﭕﭖﭗﭘﭙﭚ (114) */
+    U+0fbd3-0fd3d, /* ﯓﯔﯕﯖﯗﯘﯙﯚﯛﯜﯝ (363) */
+    U+0fd50-0fd8f, /* ﵐﵑﵒﵓﵔﵕﵖﵗﵘﵙﵚ (64) */
+    U+0fd92-0fdc7, /* ﶒﶓﶔﶕﶖﶗﶘﶙﶚﶛﶜ (54) */
+    U+0fdf0-0fdfd, /* ﷰﷱﷲﷳﷴﷵﷶﷷﷸﷹﷺ (14) */
+    U+0fe70-0fe74, /* ﹰﹱﹲﹳﹴ (5) */
+    U+0fe76-0fefc, /* ﹶﹷﹸﹹﹺﹻﹼﹽﹾﹿﺀ (135) */
+    U+102e0-102fb, /* 𐋠𐋡𐋢𐋣𐋤𐋥𐋦𐋧𐋨𐋩𐋪 (28) */
+    U+10e60-10e7e, /* 𐹠𐹡𐹢𐹣𐹤𐹥𐹦𐹧𐹨𐹩𐹪 (31) */
+    U+1ee00-1ee03, /* 𞸀𞸁𞸂𞸃 (4) */
+    U+1ee05-1ee1f, /* 𞸅𞸆𞸇𞸈𞸉𞸊𞸋𞸌𞸍𞸎𞸏 (27) */
+    U+1ee21-1ee22, /* 𞸡𞸢 (2) */
+    U+1ee24-1ee24, /* 𞸤 (1) */
+    U+1ee27-1ee27, /* 𞸧 (1) */
+    U+1ee29-1ee32, /* 𞸩𞸪𞸫𞸬𞸭𞸮𞸯𞸰𞸱𞸲 (10) */
+    U+1ee34-1ee37, /* 𞸴𞸵𞸶𞸷 (4) */
+    U+1ee39-1ee39, /* 𞸹 (1) */
+    U+1ee3b-1ee3b, /* 𞸻 (1) */
+    U+1ee42-1ee42, /* 𞹂 (1) */
+    U+1ee47-1ee47, /* 𞹇 (1) */
+    U+1ee49-1ee49, /* 𞹉 (1) */
+    U+1ee4b-1ee4b, /* 𞹋 (1) */
+    U+1ee4d-1ee4f, /* 𞹍𞹎𞹏 (3) */
+    U+1ee51-1ee52, /* 𞹑𞹒 (2) */
+    U+1ee54-1ee54, /* 𞹔 (1) */
+    U+1ee57-1ee57, /* 𞹗 (1) */
+    U+1ee59-1ee59, /* 𞹙 (1) */
+    U+1ee5b-1ee5b, /* 𞹛 (1) */
+    U+1ee5d-1ee5d, /* 𞹝 (1) */
+    U+1ee5f-1ee5f, /* 𞹟 (1) */
+    U+1ee61-1ee62, /* 𞹡𞹢 (2) */
+    U+1ee64-1ee64, /* 𞹤 (1) */
+    U+1ee67-1ee6a, /* 𞹧𞹨𞹩𞹪 (4) */
+    U+1ee6c-1ee72, /* 𞹬𞹭𞹮𞹯𞹰𞹱𞹲 (7) */
+    U+1ee74-1ee77, /* 𞹴𞹵𞹶𞹷 (4) */
+    U+1ee79-1ee7c, /* 𞹹𞹺𞹻𞹼 (4) */
+    U+1ee7e-1ee7e, /* 𞹾 (1) */
+    U+1ee80-1ee89, /* 𞺀𞺁𞺂𞺃𞺄𞺅𞺆𞺇𞺈𞺉 (10) */
+    U+1ee8b-1ee9b, /* 𞺋𞺌𞺍𞺎𞺏𞺐𞺑𞺒𞺓𞺔𞺕 (17) */
+    U+1eea1-1eea3, /* 𞺡𞺢𞺣 (3) */
+    U+1eea5-1eea9, /* 𞺥𞺦𞺧𞺨𞺩 (5) */
+    U+1eeab-1eebb, /* 𞺫𞺬𞺭𞺮𞺯𞺰𞺱𞺲𞺳𞺴𞺵 (17) */
+    U+1eef0-1eef1; /* 𞻰𞻱 (2) */
+}
+
+* {
+  font-family: 'flow' !important;
+}
